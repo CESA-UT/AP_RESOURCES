@@ -1,0 +1,28 @@
+name: Resource Request
+description: وقتی برای حل تمرین به یک منبع نیاز دارید اما هنوز در مخزن نیست
+title: "[Resource Request] "
+labels: ["resource-request"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: topic
+      description: این درخواست به کدام topic مربوط است؟
+      placeholder: مثلا data-storage یا cpp
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: نیاز واقعی شما چیست؟
+      description: دقیق بگویید وسط کدام بخش تمرین گیر کرده‌اید.
+      placeholder: مثلا نمی‌دانم برای ذخیره کاربران و پست‌ها JSON بهتر است یا SQLite
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: چه نوع منبعی مفید است؟
+      description: مثال کوتاه، مقایسه، tutorial، snippet یا هر چیز دیگر
+    validations:
+      required: false

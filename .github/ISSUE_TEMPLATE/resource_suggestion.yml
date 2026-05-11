@@ -1,0 +1,62 @@
+name: Resource Suggestion
+description: برای پیشنهاد یک منبع جدید یا بهترکردن یک منبع فعلی
+title: "[Resource Suggestion] "
+labels: ["resource-suggestion"]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: topic
+      description: این منبع به کدام topic مربوط است؟
+      placeholder: مثلا git-github
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: عنوان منبع
+      placeholder: مثلا راهنمای کوتاه حل merge conflict
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: خلاصه منبع
+      description: کوتاه بگویید این منبع چه کمکی می‌کند.
+    validations:
+      required: true
+  - type: textarea
+    id: link
+    attributes:
+      label: لینک یا متن منبع
+      description: اگر لینک ندارید، همین‌جا متن کوتاه را بگذارید.
+    validations:
+      required: false
+  - type: dropdown
+    id: relevance
+    attributes:
+      label: ارتباط با تمرین
+      options:
+        - مستقیم
+        - مرتبط ولی غیرالزامی
+        - مطالعه اضافه
+    validations:
+      required: true
+  - type: textarea
+    id: ai_usage
+    attributes:
+      label: اگر از AI استفاده شده
+      description: ابزار، مدل و نوع استفاده را شفاف بنویسید. مثلا ChatGPT Web - GPT-5 - تولید پیش‌نویس.
+      placeholder: استفاده از AI: بله | ابزار: ChatGPT Web | مدل: GPT-5 | نوع استفاده: تولید پیش‌نویس و بازنویسی
+    validations:
+      required: false
+  - type: dropdown
+    id: review
+    attributes:
+      label: وضعیت بررسی
+      options:
+        - بررسی نشده
+        - بررسی شده
+        - تأیید TA
+    validations:
+      required: true
