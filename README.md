@@ -42,8 +42,8 @@
 
 ## راهنمای مشارکت
 
-- برای قوانین ساده مشارکت، فایل [CONTRIBUTING.md](/home/reza/dev/ut/AP_RESOURCES/CONTRIBUTING.md) را ببینید.
-- برای قالب استاندارد منبع، فایل [index.md](/home/reza/dev/ut/AP_RESOURCES/index.md) و template هر topic را ببینید.
+- برای قوانین ساده مشارکت، فایل [CONTRIBUTING.md](./CONTRIBUTING.md) را ببینید.
+- برای قالب استاندارد منبع، فایل [index.md](./index.md) و template هر topic را ببینید.
 - اگر هنوز منبع آماده ندارید، می‌توانید یک issue از نوع request یا suggestion باز کنید.
 
 ## ساختار پوشه‌ها
@@ -103,7 +103,7 @@ AP_RESOURCES/
 2. برای هر topic یک فایل `ranking.md` جدا وجود دارد.
 3. اگر repository بخش Discussions داشته باشد، برای هر topic یک discussion یا thread ساخته می‌شود و رأی‌ها و بازخوردها در رتبه‌بندی اثر می‌گذارند.
 4. برای درخواست یا پیشنهاد منبع، از GitHub Issue با labelهایی مثل `resource-suggestion` و `resource-request` استفاده می‌شود.
-5. یک GitHub Actions workflow فایل‌های رتبه‌بندی topicها را می‌خواند و [ranking.md](/home/reza/dev/ut/AP_RESOURCES/ranking.md) را به‌صورت مرکزی بازسازی می‌کند.
+5. یک GitHub Actions workflow فایل‌های رتبه‌بندی topicها را می‌خواند و [ranking.md](./ranking.md) را به‌صورت مرکزی بازسازی می‌کند.
 6. منابع `تأیید TA`، منابعی که استفاده بیشتری شده‌اند، و منابعی که بازخورد بهتری گرفته‌اند بالاتر قرار می‌گیرند.
 
 ## قوانین کیفیت منابع
@@ -120,5 +120,5 @@ AP_RESOURCES/
 
 ## قدم بعدی
 
-- با [recommended-path.md](/home/reza/dev/ut/AP_RESOURCES/recommended-path.md) شروع کنید.
+- با [recommended-path.md](./recommended-path.md) شروع کنید.
 - اگر روی فاز اول هستید، معمولاً این ترتیب مفید است: `software-design`، `cpp`، `data-storage`، `build-system`، `git-github`.
