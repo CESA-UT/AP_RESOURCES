@@ -26,5 +26,3 @@
 - [template.md](./template.md): قالب افزودن منبع جدید
 - [files/](./files/): فایل‌های واقعی مثل `pdf`، `epub` و `md`
 - [git/](./git/README.md): خود Git، commit، branch، merge، restore
-- [github/](./github/README.md): pull request، merge conflict، review
-- [github-classroom/](./github-classroom/README.md): assignment و کار گروهی روی Classroom
